@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Data Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <form id="personalForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required><br><br>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" required><br><br>
+
+      <label>Gender:</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br><br>
+
+      <label for="description">Brief Description:</label><br>
+      <textarea id="description" required></textarea><br><br>
+
+      <label for="major">Major and University:</label>
+      <input type="text" id="major" required><br><br>
+
+      <label for="languages">Programming Languages:</label><br>
+      <input type="checkbox" id="language1" name="languages" value="JavaScript">
+      <label for="language1">JavaScript</label><br>
+      <input type="checkbox" id="language2" name="languages" value="Python">
+      <label for="language2">Python</label><br>
+      <input type="checkbox" id="language3" name="languages" value="Java">
+      <label for="language3">Java</label><br><br>
+
+      <button type="submit" id="submitButton">Submit</button>
+    </form>
+  </div>
+
+  <div class="cards-container" id="cardsContainer"></div>
+  <!-- display the data -->
+</body>
+<script src="task1.js"></script>
+</html>
